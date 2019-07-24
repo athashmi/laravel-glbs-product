@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 15.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="48px" height="48px" viewBox="0 0 48 48" enable-background="new 0 0 48 48" xml:space="preserve">
+<title>navigation</title>
+<g>
+	<path fill="#5133B7" d="M40,7H8c-3.86,0-7,3.14-7,7v26c0,3.859,3.14,7,7,7h32c3.859,0,7-3.141,7-7V14C47,10.14,43.859,7,40,7z"/>
+	<path fill="#D4D1F2" d="M40,13H8c-0.552,0-1,0.448-1,1v26c0,0.553,0.448,1,1,1h32c0.553,0,1-0.447,1-1V14
+		C41,13.448,40.553,13,40,13z"/>
+	<path fill="#FFFFFF" d="M34,20.879l-6,6L23.121,22l9-9h-4.242L13,27.879l-6-6v4.242L10.879,30L7,33.879v4.242l6-6L21.879,41h6.242
+		L39,30.121l2,2v-4.242L34,20.879z M25,39.879L15.121,30L21,24.121l7,7l6-6L36.879,28L25,39.879z"/>
+	<path fill="#FFFFFF" d="M22.121,13h-4.242L14,16.879L10.121,13H8c-0.552,0-1,0.448-1,1v0.121l7,7L22.121,13z"/>
+	<path fill="#B366D2" d="M24,1c-5.407,0-11,4.115-11,11c0,6.509,9.87,16.531,10.29,16.955c0.188,0.188,0.443,0.295,0.71,0.295
+		s0.521-0.106,0.71-0.295C25.13,28.531,35,18.509,35,12C35,5.115,29.407,1,24,1z"/>
+	<circle fill="#FFFFFF" cx="24" cy="12" r="2"/>
+</g>
+</svg>

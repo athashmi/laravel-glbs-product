@@ -1,0 +1,82 @@
+<div class="row">
+
+<div class="col-lg-12 no-padding m-b-10">
+      <div class="col-lg-3 pull-right">
+           {{--  <button id="edit-btn" type="button" data-toggle = "modal" data-target = "#add_address_model" class="btn btn-sm btn-primary waves-effect waves-light pull-right">
+            Add New Address
+            </button> --}}
+       </div> 
+        <div class="col-lg-12">
+            <input class="form-control" type="text" placeholder="Search" aria-label="Search">
+        </div>
+
+ </div>
+</div>
+
+<div class="row address_cards">
+<!--  -->
+@forelse($shopaholic->shopaholicAddresses as $address)
+
+<div class="col-lg-4 addr">
+    <div id="card-linear-color" class="card card-default card-address">
+        <div class="card-header  ">
+            <div class="card-title">Address
+            </div>
+            <div class="card-controls">
+                <ul>
+                    <li>
+                        <div class="dropdown">
+                            <a id="card-settings" data-target="#" href="#" data-toggle="dropdown" aria-haspopup="true" role="button" aria-expanded="false">
+                                <i class="card-icon card-icon-settings "></i>
+                            </a>
+                            <ul class="dropdown-menu pull-right" role="menu" aria-labelledby="card-settings">
+                                <li><a class="dropdown-item " data-id="{{$address->id}}" data-toggle = "modal" data-target = "#edit_address_model" href="javascript:;">Edit</a></li>
+                                
+                            </ul>
+                        </div>
+                    </li>
+                   
+                    <li><a  data-id="{{$address->id}}" id="delete_id{{$address->id}}" onclick=deleteById("{{$address->id}}",'refresh')  class="card-close" data-toggle="close">
+                        <i class="card-icon card-icon-close"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="card-body">
+
+            <div class="col-sm-height sm-no-padding">
+               
+                <h3>
+                <span class="semi-bold">{{$address->name}}</span></h3>
+                <address>
+                <strong>{{$address->street}}</strong>
+               
+                <br>
+                {{$address->city}}, {{$address->state}}<br>
+                {{$address->zip_code}}, {{$address->country->name}}
+                <br/>
+                <abbr title="Phone">P:</abbr>{{$address->phone}}
+                </address>
+                </div>
+
+            
+        
+        </div>
+    </div>
+</div>
+   
+@empty
+<div class="col-xl-12 col-lg-12">
+    <div class="card">
+        <div class="card-header">
+            <h5 class="card-header-text text-center">Address is not Available</h5>
+        </div>
+        <div class="card-block revision-block">
+        </div>
+    </div>
+</div>
+@endforelse
+
+</div>
+
+
